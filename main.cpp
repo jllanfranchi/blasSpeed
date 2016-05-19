@@ -5,7 +5,6 @@
 #include <ctime>
 #include <iostream>
 #include <cstdlib>
-#include <complex> // Needed for complex numbers with OpenBLAS (and other BLAS libraries).
 extern "C"
 {
     #include <cblas.h> // OpenBlas
